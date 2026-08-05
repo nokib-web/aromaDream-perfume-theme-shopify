@@ -20,6 +20,12 @@
     }
   }
 
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} {
+      min-height: {{ section.settings.custom_height_mobile }}px !important;
+    }
+  }
+
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
     {%- if section.settings.custom_overlay_color != blank -%}
@@ -399,12 +405,11 @@
       "type": "range",
       "id": "custom_height_mobile",
       "min": 250,
-      "max": 700,
+      "max": 800,
       "step": 10,
       "unit": "px",
-      "label": "Custom Mobile Height",
-      "default": 400,
-      "info": "Active when Banner Height is set to Custom Height."
+      "label": "Mobile Hero Height",
+      "default": 450
     },
     {
       "type": "select",
