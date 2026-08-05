@@ -63,7 +63,8 @@
             "title": "Cash on Delivery",
             "text": "<p><br/>Pay only when it arrives at your door</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>"
           }
         },
         "column_bXewWK": {
@@ -72,7 +73,8 @@
             "title": "1–2 Day Delivery",
             "text": "<p><br/>Fast delivery across the UAE<br/></p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle><path d=\"M-2 9h4M-3 12h5M-1 15h3\"></path></svg>"
           }
         },
         "column_rWgfdR": {
@@ -81,7 +83,8 @@
             "title": "IFRA-Certified Oils",
             "text": "<p><br/>Safety-tested fragrance formulations<br/></p><p></p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><path d=\"M14 4l6 6-8 8H6v-6l8-8zM12 6l6 6M10 22h4M7 17l-3 3M21 3l-4 4\"></path></svg>"
           }
         },
         "column_4BkXkY": {
@@ -90,7 +93,9 @@
             "title": "Free On-Site Scent Consultation",
             "text": "<p>Hotels, clinics, offices and retail spaces across Dubai and Abu Dhabi. We visit your location, assess the space, and recommend the right diffuser and scent — at no cost and no obligation. Most consultations take 20 minutes.</p><p></p>",
             "link_label": "Book a Site Visit",
-            "link": "https://wa.me/971553354787?text=Hi%20Aromadream%2C%20I%27d%20like%20to%20book%20a%20free%20site%20visit%20for%20my%20business."
+            "link": "https://wa.me/971553354787?text=Hi%20Aromadream%2C%20I%27d%20like%20to%20book%20a%20free%20site%20visit%20for%20my%20business.",
+            "show_as_button": true,
+            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line><path d=\"M9 16l2 2 4-4\"></path></svg>"
           }
         }
       },
@@ -105,18 +110,18 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Why Aromadream?",
+        "title": "Why Choose Aromadream?",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "icon",
+        "image_ratio": "square",
         "button_label": "",
         "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -149,7 +154,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 20
       }
     },
     "featured_collection": {
@@ -176,7 +181,7 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 44,
+        "padding_top": 20,
         "padding_bottom": 36
       }
     },

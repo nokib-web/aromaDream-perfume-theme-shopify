@@ -30,6 +30,11 @@
   }
 }
 
+.multicolumn-card__image-wrapper--icon-width {
+  width: 50px;
+  margin: 0 auto;
+}
+
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
@@ -74,8 +79,10 @@
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background))
-    linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
+  background: #f8f8f8 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 8px;
 }
 
 .multicolumn-list h3 {

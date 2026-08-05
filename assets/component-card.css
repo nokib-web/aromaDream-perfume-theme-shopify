@@ -107,6 +107,8 @@
 .card__media {
   margin: var(--image-padding);
   width: calc(100% - 2 * var(--image-padding));
+  background-color: rgba(var(--color-foreground), 0.04);
+  border-radius: var(--border-radius);
 }
 
 .card--standard .card__media {
@@ -303,6 +305,7 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 600;
 }
 
 .card__heading:last-child {
@@ -388,7 +391,7 @@
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
   .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
 
   .card-wrapper:hover .media.media--hover-effect > img:first-child:not(:only-child) {
@@ -398,7 +401,7 @@
   .card-wrapper:hover .media.media--hover-effect > img + img {
     opacity: 1;
     transition: transform var(--duration-long) ease;
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
 
   .underline-links-hover:hover a {

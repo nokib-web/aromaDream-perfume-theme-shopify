@@ -117,6 +117,14 @@
                     }}
                   </div>
                 </div>
+              {%- elsif block.settings.custom_svg != blank -%}
+                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width multicolumn-card-spacing">
+                  <div class="media media--transparent media--square" style="display: flex; align-items: center; justify-content: center; padding-bottom: 100%;">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; color: rgb(var(--color-foreground));">
+                      {{ block.settings.custom_svg }}
+                    </div>
+                  </div>
+                </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
@@ -127,7 +135,11 @@
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
-                    class="link animate-arrow"
+                    {% if block.settings.show_as_button %}
+                      class="button button--primary"
+                    {% else %}
+                      class="link animate-arrow"
+                    {% endif %}
                     {% if block.settings.link == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
@@ -135,9 +147,11 @@
                     {% endif %}
                   >
                     {{- block.settings.link_label | escape -}}
-                    <span class="svg-wrapper"
-                      ><span class="icon-wrap">&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span></span
-                    >
+                    {%- unless block.settings.show_as_button -%}
+                      <span class="svg-wrapper"
+                        ><span class="icon-wrap">&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span></span
+                      >
+                    {%- endunless -%}
                   </a>
                 {%- endif -%}
               </div>
@@ -241,6 +255,10 @@
       "type": "select",
       "id": "image_width",
       "options": [
+        {
+          "value": "icon",
+          "label": "Icon (Small)"
+        },
         {
           "value": "third",
           "label": "t:sections.multicolumn.settings.image_width.options__1.label"
@@ -431,6 +449,18 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_as_button",
+          "label": "Display link as a button",
+          "default": false
+        },
+        {
+          "type": "html",
+          "id": "custom_svg",
+          "label": "Custom SVG Icon",
+          "info": "Paste raw SVG code here. Used if Image is blank."
         }
       ]
     }
