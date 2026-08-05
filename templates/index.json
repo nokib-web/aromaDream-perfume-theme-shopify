@@ -284,69 +284,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_h8BgP8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_FxBtVr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Moderner_Luftreiniger_in_stilvollem_Raum.png",
-            "title": "Bestseller",
-            "text": "<p>Discover our most popular products loved by customers worldwide. Our bestsellers combine the finest fragrance oils and diffusers to create the ultimate sensory experience.</p>",
-            "link_label": "",
-            "link": "",
-            "show_as_button": false,
-            "custom_svg": ""
-          }
-        },
-        "column_LtJMxg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/perfect-ambient.jpg",
-            "title": "Different Scent Oil",
-            "text": "<p>From calming floral notes to invigorating citrus and rich woody aromas, each scent oil is designed to enhance your environment with just a few drops.</p>",
-            "link_label": "SCENT OIL",
-            "link": "shopify://collections/scent-oil",
-            "show_as_button": false,
-            "custom_svg": ""
-          }
-        },
-        "column_hbhMDi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2.png",
-            "title": "Diffusers",
-            "text": "<p>Create a peaceful ambiance with our premium diffusers. Whether you prefer ultrasonic or electric models, our diffusers gently disperse your favorite fragrance oils throughout any room, providing a soothing atmosphere.</p>",
-            "link_label": "DIFFUSER DEVICES",
-            "link": "shopify://collections/fragrance-devices",
-            "show_as_button": false,
-            "custom_svg": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_FxBtVr",
-        "column_LtJMxg",
-        "column_hbhMDi"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1748168651334432b1": {
       "type": "apps",
       "blocks": {
@@ -375,6 +312,53 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "3d_carousel_collections": {
+      "type": "3d-carousel-collections",
+      "blocks": {
+        "bestseller": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Moderner_Luftreiniger_in_stilvollem_Raum.png",
+            "title": "Bestseller",
+            "text": "Discover our most popular products loved by customers worldwide.",
+            "button_label": "Explore Bestsellers",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "scent_oil": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/perfect-ambient.jpg",
+            "title": "Different Scent Oil",
+            "text": "Calming floral, invigorating citrus, and rich woody aromas.",
+            "button_label": "Explore Scent Oil",
+            "button_link": "shopify://collections/scent-oil"
+          }
+        },
+        "diffusers": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "Diffusers",
+            "text": "Whisper-quiet premium diffusers for effortless luxury scenting.",
+            "button_label": "Explore Devices",
+            "button_link": "shopify://collections/fragrance-devices"
+          }
+        }
+      },
+      "block_order": [
+        "bestseller",
+        "scent_oil",
+        "diffusers"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -384,7 +368,7 @@
     "featured_collection",
     "stacked_scrolling_features_custom",
     "featured_collection_LCthab",
-    "multicolumn_h8BgP8",
+    "3d_carousel_collections",
     "1748168651334432b1"
   ]
 }
