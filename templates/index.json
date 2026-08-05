@@ -15,21 +15,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Scent devices that transform rooms",
+            "heading": "<strong>Experience Five-Star Fragrance Every Day</strong>",
             "heading_size": "h1"
           }
         },
         "text_TfxtMq": {
           "type": "text",
           "settings": {
-            "text": "Swiss room fragrance for hotels, offices and your home",
+            "text": "Transform your space with long-lasting luxury scents inspired by the world's finest hotels. Premium fragrance oils, elegant diffusers, and fast delivery across the UAE.",
             "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Discover fragrance devices",
+            "button_label_1": "Explore Collection",
             "button_link_1": "shopify://collections/all",
             "button_label_2": "",
             "button_link_2": ""
@@ -377,7 +377,7 @@
     "custom_featured_blog": {
       "type": "custom-featured-blog",
       "settings": {
-        "heading": "Our Latest Blog Posts",
+        "heading": "Explore Our Latest Blog",
         "subheading": "<p>Discover the benefits of aromatherapy, tips for choosing scent oils, and guides to our premium diffusers.</p>",
         "blog": "news",
         "button_label": "See All Blog Posts",
