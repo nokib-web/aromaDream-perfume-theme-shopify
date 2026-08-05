@@ -15,26 +15,24 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Your home, five-star scented",
+            "heading": "Scent devices that transform rooms",
             "heading_size": "h1"
           }
         },
         "text_TfxtMq": {
           "type": "text",
           "settings": {
-            "text": "Premium diffusers and fragrance oils for UAE homes. Free delivery over AED 250 · Cash on delivery.",
+            "text": "Swiss room fragrance for hotels, offices and your home",
             "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Diffusers — from AED 300",
+            "button_label_1": "Discover fragrance devices",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
             "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link_2": ""
           }
         }
       },
@@ -45,16 +43,15 @@
       ],
       "settings": {
         "image": "shopify://shop_images/david-rodrigo-Fr6zexbmjmc-unsplash.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
+        "image_overlay_opacity": 45,
+        "enable_text_shadow": true,
+        "heading_color": "#FFFFFF",
+        "text_color": "#FFFFFF",
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "mobile_content_alignment": "center"
       }
     },
     "multicolumn_8wpHmg": {
