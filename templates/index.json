@@ -1,0 +1,407 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your home, five-star scented",
+            "heading_size": "h1"
+          }
+        },
+        "text_TfxtMq": {
+          "type": "text",
+          "settings": {
+            "text": "Premium diffusers and fragrance oils for UAE homes. Free delivery over AED 250 · Cash on delivery.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Diffusers — from AED 300",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_TfxtMq",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/david-rodrigo-Fr6zexbmjmc-unsplash.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "multicolumn_8wpHmg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_668FiQ": {
+          "type": "column",
+          "settings": {
+            "title": "Cash on Delivery",
+            "text": "<p><br/>Pay only when it arrives at your door</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bXewWK": {
+          "type": "column",
+          "settings": {
+            "title": "1–2 Day Delivery",
+            "text": "<p><br/>Fast delivery across the UAE<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rWgfdR": {
+          "type": "column",
+          "settings": {
+            "title": "IFRA-Certified Oils",
+            "text": "<p><br/>Safety-tested fragrance formulations<br/></p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4BkXkY": {
+          "type": "column",
+          "settings": {
+            "title": "Free On-Site Scent Consultation",
+            "text": "<p>Hotels, clinics, offices and retail spaces across Dubai and Abu Dhabi. We visit your location, assess the space, and recommend the right diffuser and scent — at no cost and no obligation. Most consultations take 20 minutes.</p><p></p>",
+            "link_label": "Book a Site Visit",
+            "link": "https://wa.me/971553354787?text=Hi%20Aromadream%2C%20I%27d%20like%20to%20book%20a%20free%20site%20visit%20for%20my%20business."
+          }
+        }
+      },
+      "block_order": [
+        "column_668FiQ",
+        "column_bXewWK",
+        "column_rWgfdR",
+        "column_4BkXkY"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center; text-align: center;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Why Aromadream?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_F4UedQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_X4tQzF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Discover Our Scent Devices</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_BFeewC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Effective fragrance diffusion for compact spaces</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_X4tQzF",
+        "text_BFeewC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "fragrance-devices",
+        "products_to_show": 4,
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cxkjdr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wHWqdP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Titan</strong> Scent",
+            "heading_size": "h1"
+          }
+        },
+        "text_dX7J6q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This premium floor-standing diffuser offers<br/>Bluetooth remote control via the Aroma-link<br/>mobile app. Featuring advanced air pump<br/>scenting technology, it's perfect for creating<br/>a luxurious atmosphere in any space.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_tCPmFD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore now",
+            "button_link": "shopify://products/duftgerat-titan",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_wHWqdP",
+        "text_dX7J6q",
+        "button_tCPmFD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_0c063771-2dd6-459c-8610-ebf51cd0752e.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_WNdzcn": {
+      "type": "multirow",
+      "blocks": {
+        "row_76z7JU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/brifght.jpg",
+            "caption": "aromadream dubai",
+            "heading": "Fragrance Oil",
+            "text": "<p>Discover the power of scent. Whether you want to relax, refresh, or simply add a touch of luxury to your everyday life – our fragrance oils are crafted to elevate your mood and surroundings.</p><p>Find your favorite scent and let your senses escape.</p>",
+            "button_label": "Explore Now",
+            "button_link": "shopify://collections/scent-oil"
+          }
+        },
+        "row_KbV9CL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/aromadreamer.jpg",
+            "caption": "aromadream dubai",
+            "heading": "Aromadreamer",
+            "text": "<p>Enhance your space with elegant and efficient fragrance devices. Our selection of high-quality diffusers and aroma devices is designed to gently disperse your favorite scents throughout your home or workspace.</p>",
+            "button_label": "Discover Now",
+            "button_link": "shopify://products/aromadreamer"
+          }
+        }
+      },
+      "block_order": [
+        "row_76z7JU",
+        "row_KbV9CL"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_LCthab": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "scent-oil",
+        "products_to_show": 4,
+        "title": "Scent Oil",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_h8BgP8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FxBtVr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Moderner_Luftreiniger_in_stilvollem_Raum.png",
+            "title": "Bestseller",
+            "text": "<p>Discover our most popular products loved by customers worldwide. Our bestsellers combine the finest fragrance oils and diffusers to create the ultimate sensory experience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LtJMxg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/perfect-ambient.jpg",
+            "title": "Different Scent Oil",
+            "text": "<p>From calming floral notes to invigorating citrus and rich woody aromas, each scent oil is designed to enhance your environment with just a few drops.</p>",
+            "link_label": "SCENT OIL",
+            "link": "shopify://collections/scent-oil"
+          }
+        },
+        "column_hbhMDi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "Diffusers",
+            "text": "<p>Create a peaceful ambiance with our premium diffusers. Whether you prefer ultrasonic or electric models, our diffusers gently disperse your favorite fragrance oils throughout any room, providing a soothing atmosphere.</p>",
+            "link_label": "DIFFUSER DEVICES",
+            "link": "shopify://collections/fragrance-devices"
+          }
+        }
+      },
+      "block_order": [
+        "column_FxBtVr",
+        "column_LtJMxg",
+        "column_hbhMDi"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1748168651334432b1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_nMyGq4": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_nMyGq4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "multicolumn_8wpHmg",
+    "rich_text_F4UedQ",
+    "featured_collection",
+    "image_with_text_cxkjdr",
+    "multirow_WNdzcn",
+    "featured_collection_LCthab",
+    "multicolumn_h8BgP8",
+    "1748168651334432b1"
+  ]
+}
