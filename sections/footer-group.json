@@ -11,19 +11,57 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "section-divider": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "background-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-2",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "link_list_qKcfak": {
+        "link_list_1": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "link_list_2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our guidelines",
+            "menu": "footer"
+          }
+        },
+        "brand_info_1": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "heading": "contact",
+            "subtext": "<p>Aromadream GmbH,<br/>Steigstrasse 26, 8406 Winterthur<br/><a href=\"mailto:info@aromadream.ch\">info@aromadream.ch</a></p><p><a href=\"/pages/contact\">Contact form</a></p><p>+41 52 550 51 31</p>"
+          }
         }
       },
       "block_order": [
-        "link_list_qKcfak"
+        "link_list_1",
+        "link_list_2",
+        "brand_info_1",
+        "text_1"
       ],
       "settings": {
         "color_scheme": "scheme-4",
@@ -35,13 +73,14 @@
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
-        "margin_top": 56,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "section-divider",
     "footer"
   ]
 }
