@@ -14,33 +14,57 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_nLDbGR": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/fast-delivery_3.png",
+            "text": "Free Delivery across UAE on orders over AED 250",
+            "link": ""
+          }
+        },
+        "announcement_jgtE8j": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/whatsapp_1.png",
+            "text": "WhatsApp support 7 days a week",
+            "link": ""
+          }
+        },
         "announcement_mCcbKw": {
           "type": "announcement",
           "settings": {
-            "text": "📦 Dubai delivery in 1–2 days · WhatsApp support 7 days a week",
+            "text": "Dubai delivery in 1–2 days",
             "link": ""
           }
         },
         "announcement_rXphCe": {
           "type": "announcement",
           "settings": {
-            "text": "🚚 Free UAE delivery over AED 250 · 💵 Cash on Delivery available",
+            "text": "Fast Delivery",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_nLDbGR",
+        "announcement_jgtE8j",
         "announcement_mCcbKw",
         "announcement_rXphCe"
       ],
       "settings": {
-        "auto_rotate": true,
-        "change_slides_speed": 4,
-        "color_scheme": "scheme-1",
-        "show_line_separator": true,
-        "show_social": false,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "bg_color": "#121212",
+        "text_color": "#ffffff",
+        "separator_color": "#e0c38c",
+        "direction": "left",
+        "ticker_speed": 81,
+        "pause_on_hover": true,
+        "separator": "✦",
+        "icon_size": 18,
+        "font_size": 13,
+        "letter_spacing": 1.5,
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "show_line_separator": true
       }
     },
     "header": {
@@ -58,8 +82,8 @@
         "enable_language_selector": true,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },

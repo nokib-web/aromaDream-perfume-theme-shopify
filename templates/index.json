@@ -43,14 +43,26 @@
       ],
       "settings": {
         "image": "shopify://shop_images/david-rodrigo-Fr6zexbmjmc-unsplash.jpg",
+        "custom_bg_color": "#121212",
+        "custom_overlay_color": "#000000",
         "image_overlay_opacity": 45,
         "enable_text_shadow": true,
-        "heading_color": "#FFFFFF",
-        "text_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "heading_font_weight": "400",
+        "text_color": "#ffffff",
+        "button_font_size": 13,
+        "button_font_weight": "400",
+        "button_padding_v": 10,
+        "button_padding_h": 24,
+        "button_corner_radius": 2,
+        "enable_button_border": false,
         "image_height": "medium",
+        "custom_height_desktop": 550,
+        "custom_height_mobile": 400,
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
+        "color_scheme": "",
         "mobile_content_alignment": "center"
       }
     },
@@ -60,42 +72,49 @@
         "column_668FiQ": {
           "type": "column",
           "settings": {
-            "title": "Cash on Delivery",
-            "text": "<p><br/>Pay only when it arrives at your door</p>",
+            "image": "shopify://shop_images/cash-on-delivery.png",
+            "title": "<strong>Cash on Delivery</strong>",
+            "text": "<p>Pay only when it arrives at your door</p>",
             "link_label": "",
             "link": "",
-            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>"
+            "show_as_button": false,
+            "custom_svg": "<svg viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>"
           }
         },
         "column_bXewWK": {
           "type": "column",
           "settings": {
-            "title": "1–2 Day Delivery",
-            "text": "<p><br/>Fast delivery across the UAE<br/></p>",
+            "image": "shopify://shop_images/fast-delivery_2.png",
+            "title": "<strong>1–2 Day Delivery</strong>",
+            "text": "<p>Fast delivery across the UAE</p>",
             "link_label": "",
             "link": "",
-            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle><path d=\"M-2 9h4M-3 12h5M-1 15h3\"></path></svg>"
+            "show_as_button": false,
+            "custom_svg": "<svg viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle><path d=\"M-2 9h4M-3 12h5M-1 15h3\"></path></svg>"
           }
         },
         "column_rWgfdR": {
           "type": "column",
           "settings": {
-            "title": "IFRA-Certified Oils",
-            "text": "<p><br/>Safety-tested fragrance formulations<br/></p><p></p>",
+            "image": "shopify://shop_images/certified.png",
+            "title": "<strong>IFRA-Certified Oils</strong>",
+            "text": "<p>Safety-tested fragrance formulations</p>",
             "link_label": "",
             "link": "",
-            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><path d=\"M14 4l6 6-8 8H6v-6l8-8zM12 6l6 6M10 22h4M7 17l-3 3M21 3l-4 4\"></path></svg>"
+            "show_as_button": false,
+            "custom_svg": "<svg viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><path d=\"M14 4l6 6-8 8H6v-6l8-8zM12 6l6 6M10 22h4M7 17l-3 3M21 3l-4 4\"></path></svg>"
           }
         },
         "column_4BkXkY": {
           "type": "column",
           "settings": {
-            "title": "Free On-Site Scent Consultation",
-            "text": "<p>Hotels, clinics, offices and retail spaces across Dubai and Abu Dhabi. We visit your location, assess the space, and recommend the right diffuser and scent — at no cost and no obligation. Most consultations take 20 minutes.</p><p></p>",
+            "image": "shopify://shop_images/doctor-consultation.png",
+            "title": "<strong>Free On-Site Scent Consultation</strong>",
+            "text": "",
             "link_label": "Book a Site Visit",
             "link": "https://wa.me/971553354787?text=Hi%20Aromadream%2C%20I%27d%20like%20to%20book%20a%20free%20site%20visit%20for%20my%20business.",
             "show_as_button": true,
-            "custom_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line><path d=\"M9 16l2 2 4-4\"></path></svg>"
+            "custom_svg": "<svg viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"width: 40px; height: 40px;\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line><path d=\"M9 16l2 2 4-4\"></path></svg>"
           }
         }
       },
@@ -185,6 +204,57 @@
         "padding_bottom": 36
       }
     },
+    "stacked_scrolling_features_custom": {
+      "type": "stacked-scrolling-features",
+      "blocks": {
+        "titan_scent": {
+          "type": "card",
+          "settings": {
+            "bg_image": "shopify://shop_images/group-21.png",
+            "image": "shopify://shop_images/1_0c063771-2dd6-459c-8610-ebf51cd0752e_1.png",
+            "heading": "Titan Scent",
+            "text": "<p>This premium floor-standing diffuser offers<br/>Bluetooth remote control via the Aroma-link<br/>mobile app. Featuring advanced air pump<br/>scenting technology, it's perfect for creating<br/>a luxurious atmosphere in any space.</p>",
+            "button_label": "Explore now",
+            "button_link": "shopify://products/duftgerat-titan",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "fragrance_oil": {
+          "type": "card",
+          "settings": {
+            "bg_image": "shopify://shop_images/bg-1.jpg",
+            "image": "shopify://shop_images/brifght.jpg",
+            "heading": "Fragrance Oil",
+            "text": "<p>Discover the power of scent. Whether you want to relax, refresh, or simply add a touch of luxury to your everyday life – our fragrance oils are crafted to elevate your mood and surroundings.</p><p>Find your favorite scent and let your senses escape.</p>",
+            "button_label": "Explore Now",
+            "button_link": "shopify://collections/scent-oil",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "aromadreamer": {
+          "type": "card",
+          "settings": {
+            "bg_image": "shopify://shop_images/group-21.png",
+            "image": "shopify://shop_images/aromadreamer.jpg",
+            "heading": "Aromadreamer",
+            "text": "<p>Enhance your space with elegant and efficient fragrance devices. Our selection of high-quality diffusers and aroma devices is designed to gently disperse your favorite scents throughout your home or workspace.</p>",
+            "button_label": "Discover Now",
+            "button_link": "shopify://products/aromadreamer",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "titan_scent",
+        "fragrance_oil",
+        "aromadreamer"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "featured_collection_LCthab": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -224,7 +294,9 @@
             "title": "Bestseller",
             "text": "<p>Discover our most popular products loved by customers worldwide. Our bestsellers combine the finest fragrance oils and diffusers to create the ultimate sensory experience.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "show_as_button": false,
+            "custom_svg": ""
           }
         },
         "column_LtJMxg": {
@@ -234,7 +306,9 @@
             "title": "Different Scent Oil",
             "text": "<p>From calming floral notes to invigorating citrus and rich woody aromas, each scent oil is designed to enhance your environment with just a few drops.</p>",
             "link_label": "SCENT OIL",
-            "link": "shopify://collections/scent-oil"
+            "link": "shopify://collections/scent-oil",
+            "show_as_button": false,
+            "custom_svg": ""
           }
         },
         "column_hbhMDi": {
@@ -244,7 +318,9 @@
             "title": "Diffusers",
             "text": "<p>Create a peaceful ambiance with our premium diffusers. Whether you prefer ultrasonic or electric models, our diffusers gently disperse your favorite fragrance oils throughout any room, providing a soothing atmosphere.</p>",
             "link_label": "DIFFUSER DEVICES",
-            "link": "shopify://collections/fragrance-devices"
+            "link": "shopify://collections/fragrance-devices",
+            "show_as_button": false,
+            "custom_svg": ""
           }
         }
       },
@@ -298,54 +374,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "stacked_scrolling_features_custom": {
-      "type": "stacked-scrolling-features",
-      "blocks": {
-        "titan_scent": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/1_0c063771-2dd6-459c-8610-ebf51cd0752e.png",
-            "heading": "<strong>Titan</strong> Scent",
-            "text": "<p>This premium floor-standing diffuser offers<br/>Bluetooth remote control via the Aroma-link<br/>mobile app. Featuring advanced air pump<br/>scenting technology, it's perfect for creating<br/>a luxurious atmosphere in any space.</p>",
-            "button_label": "Explore now",
-            "button_link": "shopify://products/duftgerat-titan",
-            "color_scheme": "scheme-1"
-          }
-        },
-        "fragrance_oil": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/brifght.jpg",
-            "heading": "Fragrance Oil",
-            "text": "<p>Discover the power of scent. Whether you want to relax, refresh, or simply add a touch of luxury to your everyday life – our fragrance oils are crafted to elevate your mood and surroundings.</p><p>Find your favorite scent and let your senses escape.</p>",
-            "button_label": "Explore Now",
-            "button_link": "shopify://collections/scent-oil",
-            "color_scheme": "scheme-2"
-          }
-        },
-        "aromadreamer": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/aromadreamer.jpg",
-            "heading": "Aromadreamer",
-            "text": "<p>Enhance your space with elegant and efficient fragrance devices. Our selection of high-quality diffusers and aroma devices is designed to gently disperse your favorite scents throughout your home or workspace.</p>",
-            "button_label": "Discover Now",
-            "button_link": "shopify://products/aromadreamer",
-            "color_scheme": "scheme-1"
-          }
-        }
-      },
-      "block_order": [
-        "titan_scent",
-        "fragrance_oil",
-        "aromadreamer"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "padding_top": 72,
-        "padding_bottom": 72
       }
     }
   },
