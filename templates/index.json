@@ -185,100 +185,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_cxkjdr": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_wHWqdP": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Titan</strong> Scent",
-            "heading_size": "h1"
-          }
-        },
-        "text_dX7J6q": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This premium floor-standing diffuser offers<br/>Bluetooth remote control via the Aroma-link<br/>mobile app. Featuring advanced air pump<br/>scenting technology, it's perfect for creating<br/>a luxurious atmosphere in any space.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_tCPmFD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Explore now",
-            "button_link": "shopify://products/duftgerat-titan",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_wHWqdP",
-        "text_dX7J6q",
-        "button_tCPmFD"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/1_0c063771-2dd6-459c-8610-ebf51cd0752e.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_WNdzcn": {
-      "type": "multirow",
-      "blocks": {
-        "row_76z7JU": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/brifght.jpg",
-            "caption": "aromadream dubai",
-            "heading": "Fragrance Oil",
-            "text": "<p>Discover the power of scent. Whether you want to relax, refresh, or simply add a touch of luxury to your everyday life – our fragrance oils are crafted to elevate your mood and surroundings.</p><p>Find your favorite scent and let your senses escape.</p>",
-            "button_label": "Explore Now",
-            "button_link": "shopify://collections/scent-oil"
-          }
-        },
-        "row_KbV9CL": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/aromadreamer.jpg",
-            "caption": "aromadream dubai",
-            "heading": "Aromadreamer",
-            "text": "<p>Enhance your space with elegant and efficient fragrance devices. Our selection of high-quality diffusers and aroma devices is designed to gently disperse your favorite scents throughout your home or workspace.</p>",
-            "button_label": "Discover Now",
-            "button_link": "shopify://products/aromadreamer"
-          }
-        }
-      },
-      "block_order": [
-        "row_76z7JU",
-        "row_KbV9CL"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_LCthab": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -393,6 +299,54 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "stacked_scrolling_features_custom": {
+      "type": "stacked-scrolling-features",
+      "blocks": {
+        "titan_scent": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/1_0c063771-2dd6-459c-8610-ebf51cd0752e.png",
+            "heading": "<strong>Titan</strong> Scent",
+            "text": "<p>This premium floor-standing diffuser offers<br/>Bluetooth remote control via the Aroma-link<br/>mobile app. Featuring advanced air pump<br/>scenting technology, it's perfect for creating<br/>a luxurious atmosphere in any space.</p>",
+            "button_label": "Explore now",
+            "button_link": "shopify://products/duftgerat-titan",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "fragrance_oil": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/brifght.jpg",
+            "heading": "Fragrance Oil",
+            "text": "<p>Discover the power of scent. Whether you want to relax, refresh, or simply add a touch of luxury to your everyday life – our fragrance oils are crafted to elevate your mood and surroundings.</p><p>Find your favorite scent and let your senses escape.</p>",
+            "button_label": "Explore Now",
+            "button_link": "shopify://collections/scent-oil",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "aromadreamer": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/aromadreamer.jpg",
+            "heading": "Aromadreamer",
+            "text": "<p>Enhance your space with elegant and efficient fragrance devices. Our selection of high-quality diffusers and aroma devices is designed to gently disperse your favorite scents throughout your home or workspace.</p>",
+            "button_label": "Discover Now",
+            "button_link": "shopify://products/aromadreamer",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "titan_scent",
+        "fragrance_oil",
+        "aromadreamer"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -400,8 +354,7 @@
     "multicolumn_8wpHmg",
     "rich_text_F4UedQ",
     "featured_collection",
-    "image_with_text_cxkjdr",
-    "multirow_WNdzcn",
+    "stacked_scrolling_features_custom",
     "featured_collection_LCthab",
     "multicolumn_h8BgP8",
     "1748168651334432b1"
