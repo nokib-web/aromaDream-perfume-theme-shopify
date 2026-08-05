@@ -359,16 +359,69 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_featured_blog": {
+      "type": "custom-featured-blog",
+      "settings": {
+        "heading": "Our Latest Blog Posts",
+        "subheading": "<p>Discover the benefits of aromatherapy, tips for choosing scent oils, and guides to our premium diffusers.</p>",
+        "blog": "news",
+        "button_label": "See All Blog Posts",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "trust_bar": {
+      "type": "trust-bar",
+      "blocks": {
+        "item_1": {
+          "type": "trust_item",
+          "settings": {
+            "title": "<strong>Free Shipping</strong> on orders over $50"
+          }
+        },
+        "item_2": {
+          "type": "trust_item",
+          "settings": {
+            "title": "<strong>30-Day</strong> Returns"
+          }
+        },
+        "item_3": {
+          "type": "trust_item",
+          "settings": {
+            "title": "<strong>Secure</strong> Payments"
+          }
+        },
+        "item_4": {
+          "type": "trust_item",
+          "settings": {
+            "title": "<strong>24/7</strong> Support"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "icon_width": 32
+      }
     }
   },
   "order": [
     "image_banner",
+    "trust_bar",
     "multicolumn_8wpHmg",
     "rich_text_F4UedQ",
     "featured_collection",
     "stacked_scrolling_features_custom",
     "featured_collection_LCthab",
     "3d_carousel_collections",
-    "1748168651334432b1"
+    "1748168651334432b1",
+    "custom_featured_blog"
   ]
 }

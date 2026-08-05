@@ -108,22 +108,31 @@
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
-                      {%- if settings.brand_image != blank -%}
-                        {%- assign brand_image_height = settings.brand_image_width
-                          | divided_by: settings.brand_image.aspect_ratio
+                      {%- liquid
+                        if block.settings.secondary_logo != blank
+                          assign brand_image = block.settings.secondary_logo
+                          assign brand_image_width = block.settings.logo_width
+                        else
+                          assign brand_image = settings.brand_image
+                          assign brand_image_width = settings.brand_image_width
+                        endif
+                      -%}
+                      {%- if brand_image != blank -%}
+                        {%- assign brand_image_height = brand_image_width
+                          | divided_by: brand_image.aspect_ratio
                         -%}
                         <div
                           class="footer-block__image-wrapper"
-                          style="max-width: min(100%, {{ settings.brand_image_width }}px);"
+                          style="max-width: min(100%, {{ brand_image_width }}px);"
                         >
                           {{
-                            settings.brand_image
+                            brand_image
                             | image_url: width: 1100
                             | image_tag:
                               loading: 'lazy',
                               widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
                               height: brand_image_height,
-                              width: settings.brand_image_width
+                              width: brand_image_width
                           }}
                         </div>
                       {%- endif -%}
@@ -361,6 +370,22 @@
         {
           "type": "paragraph",
           "content": "t:sections.footer.blocks.brand_information.settings.paragraph.content"
+        },
+        {
+          "type": "image_picker",
+          "id": "secondary_logo",
+          "label": "Secondary Logo",
+          "info": "Overrides the default brand image in the footer."
+        },
+        {
+          "type": "range",
+          "id": "logo_width",
+          "min": 50,
+          "max": 300,
+          "step": 5,
+          "unit": "px",
+          "label": "Secondary logo width",
+          "default": 150
         },
         {
           "type": "checkbox",

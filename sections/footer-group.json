@@ -46,6 +46,8 @@
         "brand_info_1": {
           "type": "brand_information",
           "settings": {
+            "secondary_logo": "shopify://shop_images/uae-dubai_1.png",
+            "logo_width": 260,
             "show_social": true
           }
         },
@@ -65,7 +67,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
