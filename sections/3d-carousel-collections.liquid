@@ -13,7 +13,7 @@
   :root {
     --card-3d-width: 280px;
     --card-3d-height: 340px;
-    --card-3d-offset: 210px;
+    --card-3d-offset: 260px;
     --card-3d-rotate: 30deg;
   }
 
@@ -21,7 +21,7 @@
     :root {
       --card-3d-width: 420px;
       --card-3d-height: 500px;
-      --card-3d-offset: 340px;
+      --card-3d-offset: 420px;
       --card-3d-rotate: 32deg;
     }
   }
@@ -30,7 +30,7 @@
     :root {
       --card-3d-width: 560px;
       --card-3d-height: 640px;
-      --card-3d-offset: 460px;
+      --card-3d-offset: 580px;
       --card-3d-rotate: 34deg;
     }
   }
@@ -227,24 +227,22 @@
     align-items: center;
     justify-content: center;
     padding: 1.2rem 3rem;
-    background: transparent !important;
-    color: #fff !important;
-    border: 2px solid rgba(255,255,255,0.85);
+    background: #ffffff;
+    color: #1a1a1a;
+    border: none;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: var(--buttons-radius, 4px);
     margin-top: 0.5rem;
     width: fit-content;
-    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+    transition: opacity 0.2s ease, transform 0.2s ease;
   }
 
   .carousel-3d__btn:hover {
-    background: rgba(255,255,255,0.15) !important;
-    color: #fff !important;
-    border-color: #fff;
+    opacity: 0.85;
     transform: translateY(-2px);
   }
 

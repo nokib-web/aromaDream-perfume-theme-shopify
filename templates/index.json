@@ -56,7 +56,7 @@
         "button_padding_h": 24,
         "button_corner_radius": 2,
         "enable_button_border": false,
-        "image_height": "medium",
+        "image_height": "large",
         "custom_height_desktop": 550,
         "custom_height_mobile": 400,
         "desktop_content_position": "middle-center",
@@ -210,10 +210,10 @@
         "titan_scent": {
           "type": "card",
           "settings": {
-            "bg_image": "shopify://shop_images/group-21.png",
+            "bg_image": "shopify://shop_images/bg-1.jpg",
             "image": "shopify://shop_images/1_0c063771-2dd6-459c-8610-ebf51cd0752e_1.png",
             "heading": "Titan Scent",
-            "text": "<p>This premium floor-standing diffuser offers<br/>Bluetooth remote control via the Aroma-link<br/>mobile app. Featuring advanced air pump<br/>scenting technology, it's perfect for creating<br/>a luxurious atmosphere in any space.</p>",
+            "text": "<p>This premium floor-standing diffuser offers Bluetooth remote control via the Aroma link mobile app. Featuring advanced air pump scenting technology, it's perfect for creating a luxurious atmosphere in any space.</p>",
             "button_label": "Explore now",
             "button_link": "shopify://products/duftgerat-titan",
             "color_scheme": "scheme-1"
@@ -234,7 +234,7 @@
         "aromadreamer": {
           "type": "card",
           "settings": {
-            "bg_image": "shopify://shop_images/group-21.png",
+            "bg_image": "shopify://shop_images/bg-1.jpg",
             "image": "shopify://shop_images/aromadreamer.jpg",
             "heading": "Aromadreamer",
             "text": "<p>Enhance your space with elegant and efficient fragrance devices. Our selection of high-quality diffusers and aroma devices is designed to gently disperse your favorite scents throughout your home or workspace.</p>",
@@ -284,35 +284,6 @@
         "padding_bottom": 36
       }
     },
-    "1748168651334432b1": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_nMyGq4": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_nMyGq4"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "3d_carousel_collections": {
       "type": "3d-carousel-collections",
       "blocks": {
@@ -358,6 +329,35 @@
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1748168651334432b1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_nMyGq4": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_nMyGq4"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
