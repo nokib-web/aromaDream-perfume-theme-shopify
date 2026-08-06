@@ -1,0 +1,190 @@
+<div class="trust-logos-section color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+    {%- if section.settings.title != blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin" style="justify-content: center; text-align: center;">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {%- endif -%}
+    <div class="trust-logos-grid">
+      {%- for block in section.blocks -%}
+        <div class="trust-logos-item" {{ block.shopify_attributes }}>
+          <div class="trust-logos-card">
+            {%- if block.settings.image != blank -%}
+              <img src="{{ block.settings.image | image_url: width: 300 }}" alt="{{ block.settings.title | escape }}" class="trust-logos-img" loading="lazy">
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg trust-logos-img' }}
+            {%- endif -%}
+            {%- if block.settings.title != blank -%}
+              <p class="trust-logos-text">{{ block.settings.title }}</p>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .trust-logos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  @media screen and (min-width: 750px) {
+    .trust-logos-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+    }
+  }
+  .trust-logos-card {
+    border: 1px solid rgba(var(--color-foreground), 0.08);
+    border-radius: var(--card-corner-radius, 8px);
+    padding: 3rem 2rem;
+    text-align: center;
+    background: rgb(var(--color-background));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(var(--color-foreground), 0.02);
+  }
+  .trust-logos-img {
+    max-width: 100px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+  }
+  .placeholder-svg.trust-logos-img {
+    background-color: #f3f3f3;
+  }
+  .trust-logos-text {
+    margin: 0;
+    font-size: 1.4rem;
+    color: rgba(var(--color-foreground), 0.75);
+    font-weight: 500;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Trust Logos",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Our Quality Standards",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust Logos",
+      "blocks": [
+        {
+          "type": "logo",
+          "settings": {
+            "title": "IFRA Standards"
+          }
+        },
+        {
+          "type": "logo",
+          "settings": {
+            "title": "CE compliant"
+          }
+        },
+        {
+          "type": "logo",
+          "settings": {
+            "title": "RoHS compliant"
+          }
+        },
+        {
+          "type": "logo",
+          "settings": {
+            "title": "Swiss Made Fragrances"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

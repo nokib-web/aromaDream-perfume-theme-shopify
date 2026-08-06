@@ -69,8 +69,8 @@
 }
 
 /* Needed for gradient continuity with or without animation so that transparent PNG images come up as we would expect */
-.card__inner.color-scheme-1 {
-  background: transparent;
+.card__inner {
+  background: transparent !important;
 }
 
 .card .card__inner .card__media {
@@ -102,12 +102,13 @@
 
 .card .media {
   width: 100%;
+  background-color: transparent;
 }
 
 .card__media {
   margin: var(--image-padding);
   width: calc(100% - 2 * var(--image-padding));
-  background-color: rgba(var(--color-foreground), 0.04);
+  background-color: transparent;
   border-radius: var(--border-radius);
 }
 
@@ -293,7 +294,7 @@
 
 .card__media .media img {
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
   width: 100%;
 }
