@@ -1,3 +1,11 @@
+{%- assign show_section = true -%}
+{%- if section.settings.required_tag != blank and request.page_type == 'product' -%}
+  {%- unless product.tags contains section.settings.required_tag -%}
+    {%- assign show_section = false -%}
+  {%- endunless -%}
+{%- endif -%}
+
+{%- if show_section -%}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
 
@@ -105,6 +113,7 @@
     </div>
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {
@@ -115,6 +124,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "required_tag",
+      "label": "Required Product Tag",
+      "info": "If added to a product template, this section will only show on products with this exact tag. Leave blank to show everywhere."
+    },
     {
       "type": "text",
       "id": "caption",
