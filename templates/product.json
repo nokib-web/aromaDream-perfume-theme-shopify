@@ -141,7 +141,7 @@
           "settings": {
             "heading": "Description",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.custom_description | metafield_tag }}",
             "page": ""
           }
         },
@@ -150,7 +150,7 @@
           "settings": {
             "heading": "Scope of delivery",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.scope_of_delivery | metafield_tag }}",
             "page": ""
           }
         },
@@ -159,7 +159,7 @@
           "settings": {
             "heading": "Advantages",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.advantages | metafield_tag }}",
             "page": ""
           }
         },
@@ -168,7 +168,7 @@
           "settings": {
             "heading": "Frequently Asked Questions",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.frequently_asked_questions | metafield_tag }}",
             "page": ""
           }
         }
@@ -181,9 +181,9 @@
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "required_tag": "",
+        "required_tag": "show_accordion",
         "caption": "",
-        "heading": "<strong>Who is behind Aromadream?</strong>",
+        "heading": "Discover More About This Product",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
