@@ -34,10 +34,17 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "custom_liquid_trust": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin-top:1.5rem; margin-bottom:1rem; text-align:center; padding:10px; background:rgba(var(--color-foreground),0.04); border-radius:8px;\"><p class=\"caption-large\" style=\"margin:0;\"><strong>🔒 Secure Checkout &nbsp;|&nbsp; 🚚 Cash on Delivery Available</strong></p></div>"
+          }
         }
       },
       "block_order": [
         "subtotal",
+        "custom_liquid_trust",
         "buttons"
       ]
     }

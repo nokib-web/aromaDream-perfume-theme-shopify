@@ -59,6 +59,32 @@
             "share_label": "Share"
           }
         },
+        "icon_with_text_benefit": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "heading_1": "Premium Quality",
+            "icon_1": "star",
+            "heading_2": "Swiss Fragrance",
+            "icon_2": "check_mark",
+            "heading_3": "Long Lasting",
+            "icon_3": "stopwatch"
+          }
+        },
+        "custom_liquid_trust": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin-top:1.5rem; text-align:center; padding:10px; background:rgba(var(--color-foreground),0.04); border-radius:8px;\"><p class=\"caption-large\" style=\"margin:0;\"><strong>🔒 Secure Checkout &nbsp;|&nbsp; 🚚 Cash on Delivery Available</strong></p></div>"
+          }
+        },
+        "collapsible_tab_highlights": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Highlights",
+            "icon": "star",
+            "content": "<p>Discover the unique benefits of our signature scent. Carefully crafted for a premium experience, ensuring long-lasting freshness all day.</p>"
+          }
+        },
         "judge_me_reviews_preview_badge_rDa3bp": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
@@ -70,9 +96,12 @@
         "vendor",
         "title",
         "price",
+        "icon_with_text_benefit",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_trust",
+        "collapsible_tab_highlights",
         "description",
         "share",
         "judge_me_reviews_preview_badge_rDa3bp"
