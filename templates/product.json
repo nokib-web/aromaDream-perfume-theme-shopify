@@ -181,7 +181,7 @@
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "required_tag": "show_accordion",
+        "required_tag": "",
         "caption": "",
         "heading": "Discover More About This Product",
         "heading_size": "h1",
