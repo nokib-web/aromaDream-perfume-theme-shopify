@@ -133,6 +133,69 @@
         "padding_bottom": 12
       }
     },
+    "collapsible_content_pp4TFj": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_i7CXga": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Description",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_iT97K4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Scope of delivery",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HGAVFY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Advantages",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_bMiz4V": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_i7CXga",
+        "collapsible_row_iT97K4",
+        "collapsible_row_HGAVFY",
+        "collapsible_row_bMiz4V"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "required_tag": "",
+        "caption": "",
+        "heading": "<strong>Who is behind Aromadream?</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -174,6 +237,7 @@
   },
   "order": [
     "main",
+    "collapsible_content_pp4TFj",
     "related-products",
     "1785002571f7073bef"
   ]
