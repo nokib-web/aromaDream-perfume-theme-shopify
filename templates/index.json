@@ -42,10 +42,11 @@
         "button"
       ],
       "settings": {
+        "video": "shopify://files/videos/84127d637bdb4956be76c15a5328c04e.HD-1080p-7.2Mbps-45392902.mp4",
         "image": "shopify://shop_images/david-rodrigo-Fr6zexbmjmc-unsplash.jpg",
         "custom_bg_color": "#121212",
         "custom_overlay_color": "#000000",
-        "image_overlay_opacity": 45,
+        "image_overlay_opacity": 0,
         "enable_text_shadow": true,
         "heading_color": "#ffffff",
         "heading_font_weight": "400",
@@ -298,6 +299,52 @@
         "padding_bottom": 36
       }
     },
+    "178591939150c4123b": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_mdxgKR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "product_image",
+            "max_reviews": 20,
+            "review_length": "small",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 3,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1300,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 7,
+            "header_text": "What Our Customers are saying",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_mdxgKR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "3d_carousel_collections": {
       "type": "3d-carousel-collections",
       "blocks": {
@@ -345,52 +392,6 @@
         "padding_bottom": 36
       }
     },
-    "178591939150c4123b": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_cards_carousel_mdxgKR": {
-          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": true,
-            "reviews_selection": "all",
-            "products": [],
-            "filter_pinned": false,
-            "filter_featured": false,
-            "filter_custom_tags": "",
-            "star_rating": "all",
-            "show_review_media": true,
-            "display_order": "media_first",
-            "no_image_fallback": "product_image",
-            "max_reviews": 20,
-            "review_length": "small",
-            "text_size": "medium",
-            "image_ratio": "1",
-            "reviews_shown": 3,
-            "show_reviewer_name": true,
-            "show_product_name": true,
-            "hide_arrows_mobile": true,
-            "arrows_position": "sides",
-            "max_width": 1300,
-            "corner_styling": "soft",
-            "header_text_color": "#000000",
-            "text_color": "#000000",
-            "card_color": "#f9f9f9",
-            "stars_color": "",
-            "arrows_color": "#000000",
-            "transition_speed": 7,
-            "header_text": "What Our Customers are saying",
-            "show_average_rating": true,
-            "rating_display": "default"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_cards_carousel_mdxgKR"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1748168651334432b1": {
       "type": "apps",
       "blocks": {
@@ -420,42 +421,34 @@
         "include_margins": true
       }
     },
-    "custom_featured_blog": {
-      "type": "custom-featured-blog",
-      "settings": {
-        "heading": "Explore Our Latest Blog",
-        "subheading": "<p>Discover the benefits of aromatherapy, tips for choosing scent oils, and guides to our premium diffusers.</p>",
-        "blog": "news",
-        "button_label": "See All Blog Posts",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "trust_logos": {
       "type": "trust-logos",
       "blocks": {
         "1": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Title_2.png",
             "title": "IFRA Standards"
           }
         },
         "2": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Title_3.png",
             "title": "CE compliant"
           }
         },
         "3": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Title_4.png",
             "title": "RoHS compliant"
           }
         },
         "4": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Title_5.png",
             "title": "Swiss Made Fragrances"
           }
         }
@@ -467,6 +460,20 @@
         "4"
       ],
       "settings": {
+        "title": "Our Quality Standards",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_featured_blog": {
+      "type": "custom-featured-blog",
+      "settings": {
+        "heading": "Explore Our Latest Blog",
+        "subheading": "<p>Discover the benefits of aromatherapy, tips for choosing scent oils, and guides to our premium diffusers.</p>",
+        "blog": "news",
+        "button_label": "See All Blog Posts",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -477,8 +484,8 @@
     "image_banner",
     "trust_bar",
     "multicolumn_8wpHmg",
-    "178591939150c4123b",
     "featured_collection",
+    "178591939150c4123b",
     "stacked_scrolling_features_custom",
     "featured_collection_LCthab",
     "3d_carousel_collections",

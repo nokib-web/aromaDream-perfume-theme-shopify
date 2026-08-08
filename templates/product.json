@@ -31,6 +31,20 @@
           "type": "price",
           "settings": {}
         },
+        "icon_with_text_benefit": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "image_1": "shopify://shop_images/certified.png",
+            "heading_1": "Premium Quality",
+            "icon_2": "check_mark",
+            "image_2": "shopify://shop_images/Title_5.png",
+            "heading_2": "Swiss Fragrance",
+            "icon_3": "stopwatch",
+            "heading_3": "Long Lasting"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -46,7 +60,29 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": true,
+            "show_payment_icons": true
+          }
+        },
+        "custom_liquid_trust": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin-top:1.5rem; text-align:center; padding:10px; background:rgba(var(--color-foreground),0.04); border-radius:8px;\"><p class=\"caption-large\" style=\"margin:0;\"><strong>🔒 Secure Checkout &nbsp;|&nbsp; 🚚 Cash on Delivery Available</strong></p></div>"
+          }
+        },
+        "tabby_pay_later_pdp_final_ztmQbf": {
+          "type": "shopify://apps/tabby-pay-later/blocks/pdp-final/b31c2495-41fc-4b20-9fc7-8cb2e9dd9a95",
+          "settings": {
+            "no_price_display": false
+          }
+        },
+        "collapsible_tab_highlights": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Highlights",
+            "icon": "star",
+            "content": "<p>Discover the unique benefits of our signature scent. Carefully crafted for a premium experience, ensuring long-lasting freshness all day.</p>",
+            "page": ""
           }
         },
         "description": {
@@ -57,32 +93,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "icon_with_text_benefit": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "heading_1": "Premium Quality",
-            "icon_1": "star",
-            "heading_2": "Swiss Fragrance",
-            "icon_2": "check_mark",
-            "heading_3": "Long Lasting",
-            "icon_3": "stopwatch"
-          }
-        },
-        "custom_liquid_trust": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"margin-top:1.5rem; text-align:center; padding:10px; background:rgba(var(--color-foreground),0.04); border-radius:8px;\"><p class=\"caption-large\" style=\"margin:0;\"><strong>🔒 Secure Checkout &nbsp;|&nbsp; 🚚 Cash on Delivery Available</strong></p></div>"
-          }
-        },
-        "collapsible_tab_highlights": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Product Highlights",
-            "icon": "star",
-            "content": "<p>Discover the unique benefits of our signature scent. Carefully crafted for a premium experience, ensuring long-lasting freshness all day.</p>"
           }
         },
         "judge_me_reviews_preview_badge_rDa3bp": {
@@ -101,6 +111,7 @@
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_trust",
+        "tabby_pay_later_pdp_final_ztmQbf",
         "collapsible_tab_highlights",
         "description",
         "share",
